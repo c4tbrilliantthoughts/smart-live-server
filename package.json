@@ -1,9 +1,9 @@
 {
 	"_from": "smart-live-server",
-	"_id": "smart-live-server@1.1.5",
+	"_id": "smart-live-server@1.1.6",
 	"_inBundle": false,
 	"_integrity": "sha512-aQ/bgRYXTCqEKLYMcRFBJKhrnwvA3zNp4vzazomOW5cnLIyQDhjmvnCovDdQ3QOV3kXIQvpxErjBR+dOgd7bdA==",
-	"_location": "/smart-live-server",
+	"_location": "/smart-d-link/smart-live-server",
 	"_phantomChildren": {},
 	"_requested": {
 		"type": "tag",
@@ -17,15 +17,18 @@
 	},
 	"_requiredBy": [
 		"#USER",
-		"/"
+		"/smart-d-link"
 	],
-	"_resolved": "https://registry.npmjs.org/smart-live-server/-/smart-live-server-1.1.5.tgz",
+	"_resolved": "https://registry.npmjs.org/smart-live-server/-/smart-live-server-1.1.6.tgz",
 	"_shasum": "e098a86f5615f0366520e5cd69347991b200b34b",
 	"_spec": "smart-live-server",
 	"_where": "S:\\2GitHub\\updated pakg",
 	"author": {
 		"name": "C4T-BrilliantTHoughts/Sumanth.Sanathi"
 	},
+	"bin": {
+    "smart-live-server": "./live-server.js"
+  },
 	"bugs": {
 		"url": "https://github.com/Sumanth-C4TBrilliantThoughts/smart-live-server/issues"
 	},
@@ -42,7 +45,8 @@
 		"object-assign": "latest",
 		"opn": "latest",
 		"proxy-middleware": "latest",
-		"send": "latest"
+		"send": "latest",
+		"dataserve-index": "^0.0.7"
 	},
 	"deprecated": false,
 	"description": "simple development http server with live reload capability",
@@ -86,5 +90,5 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"version": "1.1.5"
+	"version": "1.1.6"
 }
