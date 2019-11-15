@@ -1,0 +1,90 @@
+{
+	"_from": "smart-live-server",
+	"_id": "smart-live-server@1.1.2",
+	"_inBundle": false,
+	"_integrity": "sha512-aQ/bgRYXTCqEKLYMcRFBJKhrnwvA3zNp4vzazomOW5cnLIyQDhjmvnCovDdQ3QOV3kXIQvpxErjBR+dOgd7bdA==",
+	"_location": "/smart-live-server",
+	"_phantomChildren": {},
+	"_requested": {
+		"type": "tag",
+		"registry": true,
+		"raw": "smart-live-server",
+		"name": "smart-live-server",
+		"escapedName": "smart-live-server",
+		"rawSpec": "",
+		"saveSpec": null,
+		"fetchSpec": "latest"
+	},
+	"_requiredBy": [
+		"#USER",
+		"/"
+	],
+	"_resolved": "https://registry.npmjs.org/smart-live-server/-/smart-live-server-1.1.2.tgz",
+	"_shasum": "e098a86f5615f0366520e5cd69347991b200b34b",
+	"_spec": "smart-live-server",
+	"_where": "S:\\2GitHub\\updated pakg",
+	"author": {
+		"name": "C4T-BrilliantTHoughts/Sumanth.Sanathi"
+	},
+	"bugs": {
+		"url": "https://github.com/Sumanth-C4TBrilliantThoughts/smart-live-server/issues"
+	},
+	"bundleDependencies": false,
+	"dependencies": {
+		"chokidar": "^2.0.4",
+		"colors": "latest",
+		"connect": "^3.6.6",
+		"cors": "latest",
+		"event-stream": "3.3.4",
+		"faye-websocket": "0.11.x",
+		"http-auth": "3.1.x",
+		"morgan": "^1.9.1",
+		"object-assign": "latest",
+		"opn": "latest",
+		"proxy-middleware": "latest",
+		"send": "latest"
+	},
+	"deprecated": false,
+	"description": "simple development http server with live reload capability",
+	"devDependencies": {
+		"eslint": "^5.9.0",
+		"jshint": "^2.9.6",
+		"mocha": "^5.2.0",
+		"supertest": "^3.3.0"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"eslintConfig": {
+		"env": {
+			"node": true
+		},
+		"rules": {
+			"quotes": 0,
+			"curly": 0,
+			"strict": 0,
+			"no-process-exit": 0,
+			"eqeqeq": 1,
+			"no-unused-vars": 1,
+			"no-shadow": 1
+		}
+	},
+	"directories": {
+		"test": "test"
+	},
+	"homepage": "https://github.com/Sumanth-C4TBrilliantThoughts/smart-live-server#readme",
+	"keywords": [
+		"smart-live-server"
+	],
+	"license": "ISC",
+	"main": "index.js",
+	"name": "smart-live-server",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Sumanth-C4TBrilliantThoughts/smart-live-server.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"version": "1.1.2"
+}
